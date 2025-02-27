@@ -1,0 +1,99 @@
+/* Định dạng chung */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* UserPosts */
+.user-posts {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-posts h2 {
+  color: #007bff;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.post h3 {
+  color: #333;
+}
+
+.post p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Countdown Timer */
+.countdown-timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d9534f;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px;
+}
+
+/* WindowSize */
+.window-size {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px;
+}
+
+/* Validated Input */
+.validated-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.validated-input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.validated-input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.validated-input .error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0 0;
+}
