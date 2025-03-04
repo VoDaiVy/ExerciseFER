@@ -1,0 +1,48 @@
+body {
+  background-color: #dbeaf5;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, select:focus {
+  border-color: #1d72b8;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(29, 114, 184, 0.5);
+}
+
+button {
+  background-color: #1d72b8;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #155a8a;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
