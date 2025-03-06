@@ -17,4 +17,3 @@ const EventHandlingDemo = () => {
 };
 
 export default EventHandlingDemo;
-//Demo
