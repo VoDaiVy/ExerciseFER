@@ -1,5 +1,5 @@
 import React from "react";
-import { EventHandlingDemo, MyAlert, MyDropdown, MyModal, MyRadioButton } from "./EventHandlingComponents";
+import { EventHandlingDemo, MyAlert, MyDropdown, MyModal, MyRadioButton } from "./EventHandling";
 
 function App() {
   return (

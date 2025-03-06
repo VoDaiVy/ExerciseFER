@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  font-family: 'Arial', sans-serif;
+}
+
+.custom-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button {
+  background: #007bff !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.custom-button:hover {
+  background: #0056b3 !important;
+}
+
+.custom-dropdown {
+  background: #6c757d;
+  color: white;
+  border-radius: 8px;
+}
+
+.custom-dropdown .dropdown-menu {
+  background: #f8f9fa;
+}
+
+.alert {
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.container {
+  padding: 30px;
+}
