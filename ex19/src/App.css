@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; /* Màu nền nhẹ */
+}
