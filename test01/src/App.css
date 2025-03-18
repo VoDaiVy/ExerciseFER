@@ -1,0 +1,190 @@
+/* Gradient animation background */
+/* Thêm ảnh nền cho trang Login */
+/* Thêm ảnh nền cho trang Login */
+.login-page {
+  background: url('https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/1600x900/?nature,water') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Login */
+.login-card {
+  width: 350px;
+  background: rgba(255, 255, 255, 0.9);
+  /* Làm mờ nền card */
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+
+/* Gradient animation effect */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Bọc toàn bộ trang với gradient */
+.background-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4, #ffdde1, #a18cd1, #fad0c4);
+  background-size: 400% 400%;
+  animation: gradientBG 8s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Giữ nội dung không bị ảnh hưởng */
+.content {
+  width: 100%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.9);
+  /* Làm mờ nền */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Gradient animation effect */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+/* Style cho từng card */
+.product-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Ảnh sản phẩm */
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Chỉnh màu chữ */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Nút xem chi tiết */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+/* Card chi tiết sản phẩm */
+.product-detail-card {
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-detail-card:hover {
+  transform: scale(1.02);
+}
+
+/* Ảnh sản phẩm */
+.product-detail-img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Giá tiền */
+.price-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+  text-align: center;
+}
+
+/* Tồn kho */
+.stock-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Mô tả sản phẩm */
+.description-text {
+  font-size: 0.95rem;
+  color: #666;
+  text-align: justify;
+}
+
+/* Background bên ngoài thẻ Card */
+.product-detail-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://plus.unsplash.com/premium_photo-1667761634654-7fcf176434b8?q=80&w=2937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/1600x900/?nature,water') no-repeat center center fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+/* Card có hiệu ứng đổ bóng nhẹ */
+.product-detail-card {
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.95);
+  /* Làm mờ để nhìn rõ nội dung */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
