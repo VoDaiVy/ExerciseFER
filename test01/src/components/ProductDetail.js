@@ -12,7 +12,7 @@ const ProductDetail = () => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:5001/Products/${id}`)
+            .get(`http://localhost:5005/Products/${id}`)
             .then((response) => {
                 setProduct(response.data);
                 setLoading(false);
