@@ -1,15 +1,17 @@
-import React from "react";
-import { EventHandlingDemo, MyAlert, MyDropdown, MyModal, MyRadioButton } from "./EventHandlingComponents";
+import './App.css';
+import Counter from './components/Counter';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ChangeNameAge from './components/ChangeNameAge';
+import ItemList from './components/ItemList';
+import QuestionBank from './components/QuestionBank';
 
 function App() {
   return (
-    <div className="container mt-4">
-      <h2>React Event Handling Examples</h2>
-      <EventHandlingDemo />
-      <MyAlert />
-      <MyDropdown />
-      <MyModal />
-      <MyRadioButton />
+    <div className="App">
+      <Counter />
+      <ChangeNameAge/>
+      <ItemList/>
+      <QuestionBank/>
     </div>
   );
 }
