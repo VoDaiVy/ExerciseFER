@@ -1,0 +1,51 @@
+/* Chỉ áp dụng cho game Xì Lác */
+.xilac-container {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Khu vực chứa game */
+.xilac-container .game-container {
+    background: rgba(0, 0, 0, 0.6); /* Tạo hiệu ứng mờ */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Khu vực Nhà cái */
+.dealer-section {
+    margin-bottom: 30px; /* Tạo khoảng cách giữa Nhà cái và Người chơi */
+}
+
+/* Khu vực Người chơi */
+.player-section {
+    margin-top: 30px;
+}
+
+/* Tùy chỉnh tiêu đề */
+.xilac-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Tùy chỉnh bài của Nhà cái và Người chơi */
+.hand {
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+/* Tùy chỉnh nút điều khiển */
+.controls {
+    margin-top: 20px;
+}

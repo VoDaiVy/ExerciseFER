@@ -1,0 +1,68 @@
+.tic-tac-toe {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(10, 60px); /* Tăng kích thước ô theo bề ngang */
+    grid-template-rows: repeat(10, 60px);
+    gap: 3px;
+    justify-content: center;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.square.X {
+    color: white;
+    background-color: red; /* X màu đỏ */
+}
+
+.square.O {
+    color: white;
+    background-color: blue; /* O màu xanh biển */
+}
+
+.status-container {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.reset-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.reset-button:hover {
+    background-color: #0056b3;
+}

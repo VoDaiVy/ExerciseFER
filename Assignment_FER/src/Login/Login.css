@@ -1,0 +1,57 @@
+/* Container chính */
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Hiệu ứng mờ nền */
+  }
+  
+  /* Card đăng nhập */
+  .login-card {
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1); /* Màu nền trong suốt */
+    backdrop-filter: blur(20px); /* Tạo hiệu ứng kính */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Tiêu đề */
+  .login-card h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ô nhập liệu */
+  .login-card .form-control {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Nút đăng nhập */
+  .login-card button {
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    padding: 10px;
+    transition: 0.3s ease;
+  }
+  
+  /* Hiệu ứng hover */
+  .login-card button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: scale(1.05);
+  }
+  

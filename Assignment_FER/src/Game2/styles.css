@@ -1,0 +1,134 @@
+/* ================== Tổng thể ================== */
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin: 0 auto;
+  background: radial-gradient(circle, #1e1e1e 40%, #222529 100%);
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+/* ================== Tiêu đề ================== */
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 3px 3px 10px rgba(255, 215, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+/* ================== Hiển thị số tiền ================== */
+.money {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00e676;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 230, 118, 0.7);
+  margin-bottom: 10px;
+}
+
+/* ================== Khu vực xúc xắc ================== */
+#dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 140px;
+  background: linear-gradient(45deg, #ffeb3b, #fdd835);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 5px 12px rgba(255, 215, 0, 0.8);
+  margin-bottom: 15px;
+}
+
+/* ================== Hình ảnh xúc xắc ================== */
+.dice {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dice:hover {
+  transform: scale(1.1);
+}
+
+/* ================== Nút quay xúc xắc ================== */
+#roll-button {
+  background: linear-gradient(45deg, #ff5722, #e64a19);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 10px rgba(255, 87, 34, 0.8);
+  margin-bottom: 10px;
+}
+
+#roll-button:hover {
+  background: linear-gradient(45deg, #e64a19, #d84315);
+  transform: scale(1.1);
+}
+
+/* ================== Khu vực đặt cược ================== */
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  max-width: 600px; /* Giữ cho không bị quá to */
+}
+
+/* ================== Ô đặt cược ================== */
+.choice {
+  background: linear-gradient(45deg, #ff9800, #f57c00);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 120px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 10px rgba(255, 152, 0, 0.8);
+}
+
+.choice:hover {
+  background: linear-gradient(45deg, #f57c00, #e65100);
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(255, 152, 0, 1);
+}
+
+/* ================== Hình ảnh con vật ================== */
+.choice-image {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+/* ================== Tên con vật ================== */
+.choice-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+/* ================== Hiển thị kết quả ================== */
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff5252;
+  text-shadow: 2px 2px 5px rgba(255, 82, 82, 0.7);
+}
